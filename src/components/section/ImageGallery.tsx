@@ -21,7 +21,7 @@ const ImageGallery = ({ images }: { images: string[] }) => {
 
   return (
     <>
-      <Section title="사진첩">
+      <Section title="웨딩 갤러리">
         <ul className={cx('wrap-images')}>
           {images.map((image, idx) => (
             <li
