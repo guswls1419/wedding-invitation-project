@@ -47,6 +47,7 @@ const RAW_RUNTIME_STATE =
           ["json-server", "npm:1.0.0-beta.0"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.3.1"],\
+          ["react-day-picker", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:8.10.1"],\
           ["react-dom", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:18.3.1"],\
           ["react-scripts", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:5.0.1"],\
           ["sass", "npm:1.77.2"],\
@@ -15776,6 +15777,32 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-day-picker", [\
+      ["npm:8.10.1", {\
+        "packageLocation": "./.yarn/cache/react-day-picker-npm-8.10.1-708bfe7c0e-a0ff28c4b6.zip/node_modules/react-day-picker/",\
+        "packageDependencies": [\
+          ["react-day-picker", "npm:8.10.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:8.10.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-day-picker-virtual-daeb19b0aa/0/cache/react-day-picker-npm-8.10.1-708bfe7c0e-a0ff28c4b6.zip/node_modules/react-day-picker/",\
+        "packageDependencies": [\
+          ["react-day-picker", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:8.10.1"],\
+          ["@types/date-fns", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["date-fns", "npm:3.6.0"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/date-fns",\
+          "@types/react",\
+          "date-fns",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-dev-utils", [\
       ["npm:12.0.1", {\
         "packageLocation": "./.yarn/cache/react-dev-utils-npm-12.0.1-83ba06e3ee-94bc4ee501.zip/node_modules/react-dev-utils/",\
@@ -18620,6 +18647,7 @@ const RAW_RUNTIME_STATE =
           ["json-server", "npm:1.0.0-beta.0"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.3.1"],\
+          ["react-day-picker", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:8.10.1"],\
           ["react-dom", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:18.3.1"],\
           ["react-scripts", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:5.0.1"],\
           ["sass", "npm:1.77.2"],\
