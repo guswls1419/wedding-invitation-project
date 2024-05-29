@@ -10,6 +10,7 @@ import ImageGallery from '@components/section/ImageGallery'
 import Intro from '@components/section/Intro'
 import Invitation from '@components/section/Invitation'
 import Calendar from './components/section/Calendar'
+import Map from './components/section/Map'
 
 const cx = classNames.bind(styles)
 
@@ -75,6 +76,7 @@ function App() {
       <Invitation message={invitation} />
       <ImageGallery images={galleryImages} />
       <Calendar date={date} />
+      <Map location={location} />
     </div>
   )
 }
