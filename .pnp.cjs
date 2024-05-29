@@ -50,6 +50,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:18.3.1"],\
           ["react-scripts", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:5.0.1"],\
           ["sass", "npm:1.77.2"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -16992,6 +16993,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ssr-window", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "./.yarn/cache/ssr-window-npm-4.0.2-01f9c0151e-e91f690f42.zip/node_modules/ssr-window/",\
+        "packageDependencies": [\
+          ["ssr-window", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ssri", [\
       ["npm:10.0.6", {\
         "packageLocation": "./.yarn/cache/ssri-npm-10.0.6-6b8eaec5ce-e5a1e23a40.zip/node_modules/ssri/",\
@@ -17434,6 +17444,16 @@ const RAW_RUNTIME_STATE =
           ["csso", "npm:4.2.0"],\
           ["picocolors", "npm:1.0.1"],\
           ["stable", "npm:0.1.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["swiper", [\
+      ["npm:9.4.1", {\
+        "packageLocation": "./.yarn/cache/swiper-npm-9.4.1-38d46d35a3-29feb1e92c.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:9.4.1"],\
+          ["ssr-window", "npm:4.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -18603,6 +18623,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:18.3.1"],\
           ["react-scripts", "virtual:c04f720927509dc441ef4d9483476aaeeaa8fa06f0509705a0f63d6ecd54f19f0848473885c6f7c9b616ba2705f342387e41f54c74b3b57c1c1869e4a4c172d7#npm:5.0.1"],\
           ["sass", "npm:1.77.2"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
