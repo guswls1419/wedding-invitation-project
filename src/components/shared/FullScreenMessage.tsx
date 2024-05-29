@@ -28,7 +28,7 @@ export default FullScreenMessage
 const Heart = () => {
   return (
     <svg
-      className={cx('ico-heart')}
+      className={cx('icon-heart')}
       version="1.1"
       viewBox="0 0 512 512"
       xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Heart = () => {
 const Error = () => {
   return (
     <svg
-      className={cx('ico-error')}
+      className={cx('icon-error')}
       version="1.1"
       viewBox="0 0 846.66 846.66"
       xmlns="http://www.w3.org/2000/svg"
