@@ -13,6 +13,7 @@ import Calendar from './components/section/Calendar'
 import Map from './components/section/Map'
 import Contact from './components/section/Contact'
 import Share from './components/section/Share'
+import AttendCountModal from './components/AttendCountModal'
 
 const cx = classNames.bind(styles)
 
@@ -81,6 +82,7 @@ function App() {
       <Map location={location} />
       <Contact groom={groom} bride={bride} />
       <Share groomName={groom.name} brideName={bride.name} date={date} />
+      <AttendCountModal wedding={wedding} />
     </div>
   )
 }
