@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import './swiper.css'
 import Dimmed from '../shared/Dimmed'
+import generateImageUrl from '@/utils/generateImageUrl'
 
 const cx = classNames.bind(styles)
 
@@ -32,7 +33,22 @@ const ImageViewer = ({
       >
         {images.map((image, idx) => (
           <SwiperSlide key={idx} className={cx('wrap-image')}>
-            <img src={image} alt="이미지 뷰어" />
+            <picture>
+              <source
+                srcSet={generateImageUrl({
+                  filename: image,
+                  format: 'webp',
+                })}
+                type="image/webp"
+              />
+              <img
+                src={generateImageUrl({
+                  filename: image,
+                  format: 'jpg',
+                })}
+                alt="사진첩 이미지"
+              />
+            </picture>
           </SwiperSlide>
         ))}
       </Swiper>
